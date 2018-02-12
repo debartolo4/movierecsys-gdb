@@ -1,0 +1,31 @@
+{
+	"name": "movierecsysbot",
+	"type": "telegram bot",
+	"description": "A Movie Recommender System bot",
+	"keyworkds": [
+		"movie",
+		"film",
+		"recommender system",
+		"telegram",
+		"bot",
+		"php"
+	],
+	"autoload": {
+		"functions": [
+			"recsysbot/replies/menuReply.php"
+		],
+		"psr-4": {
+			"Recsysbot\\": "recsysbot/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Francesco Baccaro",
+			"email": "baccaro.f@gmail.com"
+		}
+	],
+	"require": {
+		"irazasyed/telegram-bot-sdk": "^2.0",
+		"guzzlehttp/guzzle": "~6.0"
+	}
+}
