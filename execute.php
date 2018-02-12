@@ -30,7 +30,7 @@
 	 * To create a new platform, create its own php class in the platforms folder.
 	 * It has to implement the Platform interface.
 	 */
-	$platform = new Facebook();
+	$platform = new Telegram();
 	
 	$content = $platform->getWebhookUpdates();
 	$update = json_decode($content, true);
