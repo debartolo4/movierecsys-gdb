@@ -16,7 +16,8 @@ return [
 		// Facebook payload returned from "Start" button
 		'getStartedPayload' => "get_started",
         // Base URI (Altieri)
-        'base_uri' => '193.204.187.192:8088', //MODIFICABILE
+        //'base_uri' => '193.204.187.192:8088', //MODIFICABILE
+	'base_uri' => 'https://1ca86d53.ngrok.io:localhost:8080',
 		// Server application URI (Altieri)
 		'application_uri' => '/movierecsysservice', //MODIFICABILE
 		// Default photo to send if the provided one is not valid
